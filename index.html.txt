@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CASHFXKRAD - LIQUIDITY HUNTER EA</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1602930131650-29ec4e5c9913?fit=crop&w=1950&q=80') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      animation: fadeIn 2s ease;
+    }
+
+    header h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      animation: slideDown 1.5s ease;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+      animation: slideUp 1.5s ease;
+    }
+
+    .btn {
+      padding: 15px 30px;
+      background: #ff6b00;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      transition: 0.3s;
+      animation: fadeIn 2s ease;
+    }
+
+    .btn:hover {
+      background: #e65c00;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .feature-box {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+      animation: fadeIn 2s ease;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .contact, .pricing {
+      text-align: center;
+      margin-top: 50px;
+      animation: fadeIn 2s ease;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+
+    @keyframes slideDown {
+      0% {transform: translateY(-50px); opacity: 0;}
+      100% {transform: translateY(0); opacity: 1;}
+    }
+
+    @keyframes slideUp {
+      0% {transform: translateY(50px); opacity: 0;}
+      100% {transform: translateY(0); opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CASHFXKRAD</h1>
+  <p>LIQUIDITY HUNTER EA - NO RISK NO FERRARI</p>
+  <a href="https://wa.me/27839818901" class="btn">Chat to Buy Now</a>
+</header>
+
+<section>
+  <h2 style="text-align:center;">About Me</h2>
+  <p style="text-align:center; font-size: 1.1rem; max-width:800px; margin:20px auto;">
+    I'm CASHFXKRAD — passionate about helping traders dominate the markets with powerful, intelligent tools like the LIQUIDITY HUNTER EA.
+    Join the winning team today!
+  </p>
+
+  <h2 style="text-align:center; margin-top:60px;">Robot Features</h2>
+  <div class="features">
+    <div class="feature-box">
+      <h3>Smart Liquidity Detection</h3>
+      <p>Tracks hidden liquidity zones and sniper entries.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Auto Risk Management</h3>
+      <p>Protects your account with smart SL/TP placements.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Fast Execution</h3>
+      <p>Enters trades at lightning speed to capture perfect setups.</p>
+    </div>
+    <div class="feature-box">
+      <h3>24/7 Trading</h3>
+      <p>Works non-stop to find profitable trades even while you sleep.</p>
+    </div>
+  </div>
+
+  <div class="pricing">
+    <h2>Pricing</h2>
+    <p style="font-size:1.3rem; margin-top:10px;"><strong>PC Version:</strong> R2500</p>
+    <p style="font-size:1.3rem;"><strong>Mobile (Android) Version:</strong> R1500</p>
+  </div>
+
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:Kradronniey@gmail.com">Kradronniey@gmail.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/Cashfxkrad_12" target="_blank">@Cashfxkrad_12</a></p>
+    <a href="https://wa.me/27839818901" class="btn" style="margin-top:20px;">Message on WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 CASHFXKRAD. All rights reserved.
+</footer>
+
+</body>
+</html>
+
